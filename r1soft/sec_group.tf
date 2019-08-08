@@ -1,5 +1,5 @@
-resource "aws_security_group" "r1soft" {
-  name        = "r1soft"
+resource "aws_security_group" "r1soft2" {
+  name        = "r1soft2"
   description = "Allow inbound traffic"
   vpc_id      = "${var.vpc}"
 
